@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Coffee Order Assistant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #6f4e37, #d2b48c);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            text-align: center;
+            max-width: 500px;
+            width: 100%;
+        }
+        h1 {
+            color: #6f4e37;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+        .coffee-icon {
+            font-size: 4em;
+            margin-bottom: 20px;
+        }
+        button {
+            background: #6f4e37;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin: 10px;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background: #5d4037;
+        }
+        .info {
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            color: #6f4e37;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="coffee-icon">☕</div>
+        <h1>Smart Coffee Order Assistant</h1>
+        <div class="info">
+            <p><strong>Welcome to our Coffee Shop!</strong></p>
+            <p>Please click the button below to start your order</p>
+        </div>
+        <button onclick="startCoffeeOrder()">Start Coffee Order</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
