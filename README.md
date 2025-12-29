@@ -21,4 +21,25 @@ This project allows users to:
 
 ---
 
-## 📁 Project Structure
+## 🌱 How to Use
+1. Run the program (`main.py`) in your preferred environment.
+2. Select your coffee type and options.
+3. When prompted for a code, enter: `1234`
+4. Confirm the order and enjoy your virtual coffee! ☕✨
+
+---
+
+## 👩‍💻 About the Author
+Hello! I am **Khadija**, a computer science student.  
+I enjoy building small interactive projects to improve my programming skills and create practical tools.
+
+---
+
+## 📎 Future Improvements
+- Add more coffee options and customization
+- Integrate a **GUI** for better user interaction
+- Implement **order saving** or **history tracking**
+
+
+## 📎 Demo
+https://khadija-dev01.github.io/Smart-Coffee-Order-Assistant/
